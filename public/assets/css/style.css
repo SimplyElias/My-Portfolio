@@ -1,0 +1,117 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav { 
+	background-color: #fff;
+	border-bottom: 5px solid #6dccde;
+	height: 10%;
+	line-height: inherit;
+	text-align: center;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+
+.main {
+	background-color: navy;
+}
+
+.nav-item {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.active {
+	background-color: #444;
+	color: #6dccde;
+	padding: 5px; 
+	border-radius: 10px;
+}
+
+#landing {
+	height: 90vh;
+	background-image: linear-gradient(#fff, #323232);
+	display: flex;
+	align-items: center;
+	background-color: #6DCCDE;
+	color: #0d0d0d;
+	font-family: 'IBM Plex Sans', sans-serif;
+	background-image: url("../images/header-bg5.png");
+	background-size: cover;
+}
+
+#landing-container {
+	background-color:white ;
+	opacity: 0.5;
+}
+
+#about {
+	padding: 40px;
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+
+/*----*/
+/*These are the icons used on the about-me section. */
+.about-icons {
+	list-style: none;
+	height: 10%;
+	padding-bottom: 20px;
+}
+
+.about-icons a {
+	padding-right: 20px;
+	display: inline-block;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 100%; 
+}
+
+#yt-icon {
+	color: red;
+}
+
+#yt-icon:hover {
+	color: #660000;
+}
+
+#twitch-icon {
+	color: #6441a5;
+}
+
+#twitch-icon:hover {
+	color: #38245b;
+}
+
+#linkedin-icon {
+	color: #0e76a8;
+}
+
+#linkedin-icon:hover {
+	color: #08435e;
+}
+
+#ig-icon {
+	color: #E1306C;
+}
+
+#ig-icon:hover {
+	color: #9c1643;
+}
+
+#twt-icon {
+	color: #1DA1F2;
+}
+
+#twt-icon:hover {
+	color: #085c91;
+}
+
+
+
+
