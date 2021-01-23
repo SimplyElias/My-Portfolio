@@ -6,14 +6,17 @@
 
 nav { 
 	background-color: #fff;
-	border-bottom: 5px solid #6dccde;
+	border-bottom: 10px solid #333333;
 	height: 10%;
 	line-height: inherit;
 	text-align: center;
+	padding: 25px;
+	font-size: 15px;
 }
 
-nav a {
+#navbar a {
 	text-decoration: none;
+	color: grey;
 }
 
 
@@ -23,7 +26,7 @@ nav a {
 
 .nav-item {
 	display: inline-block;
-	padding: 5px 10px;
+	padding: 5px 5px;
 }
 
 .active {
@@ -40,20 +43,103 @@ nav a {
 	align-items: center;
 	background-color: #6DCCDE;
 	color: #0d0d0d;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Noto Serif', sans-serif;
 	background-image: url("../images/header-bg5.png");
 	background-size: cover;
 }
 
 #landing-container {
 	background-color:white ;
-	opacity: 0.5;
+	opacity: 0.75;
+}
+
+#landing-container h1 {
+	font-size: 60px;
+}
+
+#landing-intro {
+	font-size: 15px;
 }
 
 #about {
 	padding: 40px;
-	font-family: 'IBM Plex Sans', sans-serif;
+	font-family: 'Noto Serif', sans-serif;
+	text-align: justify;
 }
+
+#about h1 {
+	padding: 20px;
+}
+
+#about-quote {
+	text-align: center;
+	font-size: 20px;
+	padding-top: 10px;
+}
+
+#skills {
+	font-family: 'Noto Serif', sans-serif;
+	padding: 40px;
+}
+
+#skills h1 {
+	padding: 20px;
+}
+
+#skills h2 {
+	padding: 20px;
+	text-align: center;
+}
+
+.skill-list {
+	width: 100%;
+	display: flex;
+	border: solid;
+	margin-top: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#skills-icon {
+	height: 100px;
+}
+
+#projects h1 {
+	font-family: 'Noto Serif', sans-serif;
+	padding: 30px;
+}
+
+#projects a {
+	text-decoration: none;
+	color: #000000
+}
+
+#projects a:hover {
+	color: #00a3cc;
+}
+
+.project-list {
+	display: flex;
+	flex-direction: column;
+	border: solid;
+	margin-top: 15px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 20px;
+	text-align: center;
+	align-items: center;
+}
+
+#opms-image, #dtc-image {
+	height: 100px;
+}
+
 
 /*----*/
 /*These are the icons used on the about-me section. */
@@ -110,6 +196,13 @@ nav a {
 
 #twt-icon:hover {
 	color: #085c91;
+}
+
+footer {
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 20px;
+	padding: 5px;
 }
 
 
