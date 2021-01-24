@@ -39,6 +39,7 @@
           <h2>Full Stack Web Developer</h2>
           <hr>
           <p>"The question of whether computers can think is like the question whether submarines can swim."</p>
+          <a href="#about" class="btn btn-primary btn-lg">View all about me!</a>
         </div>
       </div>
     </div>
@@ -47,15 +48,19 @@
       <div class="row">
         <div class="col-12 col-md-6">
           <h1>About me</h1>
-          <p>My name is Von Aubrey Naval! I am a college-gradute with a <b>Bachelor's Degree of Science and Business in Information Technology</b> at <em>Far Eastern Universtiy - Diliman.</em></p>
+          <p>My name is Von Aubrey Naval! I am a college-graduate with a <b>Bachelor's Degree of Science and Business in Information Technology</b> at <em>Far Eastern Universtiy - Diliman.</em></p>
           <p>As of 2021, I am currently working as a <b>Web-Developer/IT Officer</b> in Dr. Carl E. Balita Review Center.</p>
           <p>My hobbies are mostly video gaming, but I play some instruments and I also do some small sketch-drawing.</p> 
-          <p>Even with 3 years of knowledge, and almost 2 years of experience in the workplace, I am still striving to learn more in the digital-world, for this is my passion - <em>to improve and to seek out digitial discoveries that are yet to come.</em></p>
-          <hr>
-          <p id="about-quote">"Design is not just what it looks like and feels like. Design is how it works."<br><em> -Steve Jobs</em></p>
+          <p>Even with 3 years of knowledge, and almost 2 years of experience in the workplace, I am still striving to learn more about technological aspects of the digital world, for this is my passion - <em>to seek out and learn more about the future of technology and digitalization.</em></p>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-5">
           <img src="assets/images/me.jpg" class="img-fluid"/>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-12">
+          <p id="about-quote">"Design is not just what it looks like and feels like. Design is how it works."<br><em> -Steve Jobs</em></p>
         </div>
       </div>
     </div>
@@ -142,7 +147,7 @@
           <a href="http://carlbalita.org/">
             <div class="project-list">
               <img  id="dtc-image" src="assets/images/projects/ceb.png">
-              <h3> CEB Group List of Websites  </h3>
+              <h3> CEB Group Websites  </h3>
               <p>The Carl Balita Review Center's (CBRC) list of websites are Wordpress-enabled websites, containing various community plugins from Wordpress that are configured and made for CBRC's websites. All websites are configured and designed by yours truly.</p>
             </div>
           </a>
@@ -169,35 +174,48 @@
     </div>
 
     <div id="contact" class="container">
-      <h1> Contact the Developer! </h1>
-      <section id="section-contact">
-        <form>
-          <label for="firstname">First Name:</label>
-          <input type="text" id="firstname" name="fname" placeholder="Input First Name here">
-          <label for="lastname">Last Name:</label>
-          <input type="text" id="lastname" name="lname"placeholder="Input Last Name here">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="fname"placeholder="Input Email here">
-          <br>
-          <h2> Type of Service </h2>
-          <select>
-            <option>Front End Programming</option>
-            <option>Back End Programming</option>
-            <option>Full Stack Programming</option>
-          </select>
-          <input type="submit" id="submit" name="submit">
-        </form>
-      </section>
-    </div>
+      <h1>Contact Me!</h1>
+      <div class="row">
+        <div class="col-12 col-md-6" >
+          <p>Do you need my assistance? Please reach out to me by entering your contact details below! Do not worry! All these information is classified and will be in utmost care!</p>
+            <form>
+              <div class="col-12 col-md-12">
+              <label for="firstname">Full Name:</label>
+              <input type="text" id="name" name="name" placeholder="Firstname Lastname">
+              <label for="number">Phone Number:</label>
+              <input type="tel" id="number" name="phone " placeholder="09123456789" pattern="[0-9]{4} [0-9]{3} [0-9]{4}" title="Ten digits code" required/>
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="fname"placeholder="youremail@mail.com">
+              <h3> Type of Service </h3>
+              <select>
+                <option>Front End Programming</option>
+                <option>Back End Programming</option>
+                <option>Full Stack Programming</option>
+              </select>
+              <input type="submit" id="submit" name="submit">
+            </div>
+            </form>
+        </div>
+        <div class="col-12 col-md-6">
+          <p>You can also reach me through the following information!</p>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3860.8796694701705!2d120.98681011535173!3d14.605929880860497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c9ff6b44e815%3A0xe7095d81425ae363!2sCarl%20Balita%20Review%20Center!5e0!3m2!1sen!2sph!4v1611496505644!5m2!1sen!2sph" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+          <p><strong>Office Address: </strong> 2nd Floor Carmen Bldg. 881 G. Tolentino St., Espana Blvd., Sampaloc, Manila</p>
+          <p><strong>Phone Number:</strong> +63 916 431 8726 </p>
+          <p><strong>E-mail Address:</strong> vonaubreynaval@gmail.com</p>
+        </div>
+        </div>
+      </div>
+
 
     <footer class="footer">
-      <div class="about-icons">
-        <a href="http://facebook.com/lyraotic" target="_blank"><i class="fb-icon fab fa-facebook-square fa-2x"></i></a>
-        <a href="http://facebook.com/lyraotic" target="_blank"><i id="yt-icon" class="fab fa-youtube fa-2x"></i></a>
-        <a href="http://twitch.tv/elias_osu" target="_blank"><i id="twitch-icon" class="fab fa-twitch fa-2x"></i></a>
-        <a href="https://www.linkedin.com/in/von-aubrey-naval/" target="_blank"><i id="linkedin-icon" class="fab fa-linkedin  fa-2x"></i></a>
-        <a href="https://www.instagram.com/navalistatic/" target="_blank"><i id="ig-icon" class="fab fa-instagram fa-2x"></i></a>
-        <a href="https://www.twitter.com/navalistatic" target="_blank"><i id="twt-icon" class="fab fa-twitter fa-2x"></i></a>
+        <a href="https://twitter.com/navalistatic" target="_blank">@Navalistatic </a> &copy; Copyright 2021
+      <div class="footer-icons">
+        <a href="https://facebook.com/lyraotic" target="_blank"><i class="fb-icon fab fa-facebook-square"></i></a>
+        <a href="https://www.youtube.com/channel/UCzirh0d5I7kLl2q39HPjlag" target="_blank"><i id="yt-icon" class="fab fa-youtube"></i></a>
+        <a href="https://twitch.tv/elias_osu" target="_blank"><i id="twitch-icon" class="fab fa-twitch"></i></a>
+        <a href="https://www.linkedin.com/in/von-aubrey-naval/" target="_blank"><i id="linkedin-icon" class="fab fa-linkedin"></i></a>
+        <a href="https://www.instagram.com/navalistatic/" target="_blank"><i id="ig-icon" class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com/navalistatic" target="_blank"><i id="twt-icon" class="fab fa-twitter"></i></a>
       </div>
     </footer>
   </body>
