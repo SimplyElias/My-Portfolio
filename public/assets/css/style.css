@@ -113,6 +113,10 @@ nav {
 	height: 100px;
 }
 
+#projects {
+	background-color: #f5f5f5;
+}
+
 #projects h1 {
 	font-family: 'Noto Serif', sans-serif;
 	padding: 30px;
